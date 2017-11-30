@@ -14,6 +14,12 @@
 		7F8FD1571FC5CA17001F2451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FD1551FC5CA17001F2451 /* LaunchScreen.storyboard */; };
 		7F8FD1621FC5CA17001F2451 /* BachToBackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8FD1611FC5CA17001F2451 /* BachToBackTests.swift */; };
 		7F8FD16D1FC5CA17001F2451 /* BachToBackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8FD16C1FC5CA17001F2451 /* BachToBackUITests.swift */; };
+		7F8FD17F1FC5D549001F2451 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8FD17E1FC5D549001F2451 /* Song.swift */; };
+		7FB74C4A1FCF590600319B95 /* SongTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB74C491FCF590600319B95 /* SongTableViewController.swift */; };
+		7FB74C4C1FCF591800319B95 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB74C4B1FCF591800319B95 /* SongTableViewCell.swift */; };
+		7FB74C561FCF6A0200319B95 /* fugue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FB74C551FCF6A0200319B95 /* fugue.mp3 */; };
+		7FB74C581FCF6A0800319B95 /* flight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FB74C571FCF6A0800319B95 /* flight.mp3 */; };
+		7FB74C5A1FCF6A0E00319B95 /* elise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FB74C591FCF6A0E00319B95 /* elise.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		7F8FD1681FC5CA17001F2451 /* BachToBackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BachToBackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8FD16C1FC5CA17001F2451 /* BachToBackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BachToBackUITests.swift; sourceTree = "<group>"; };
 		7F8FD16E1FC5CA17001F2451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F8FD17E1FC5D549001F2451 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		7FB74C491FCF590600319B95 /* SongTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTableViewController.swift; sourceTree = "<group>"; };
+		7FB74C4B1FCF591800319B95 /* SongTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		7FB74C551FCF6A0200319B95 /* fugue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fugue.mp3; sourceTree = "<group>"; };
+		7FB74C571FCF6A0800319B95 /* flight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flight.mp3; sourceTree = "<group>"; };
+		7FB74C591FCF6A0E00319B95 /* elise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elise.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +113,14 @@
 				7F8FD14E1FC5CA17001F2451 /* ViewController.swift */,
 				7F8FD1501FC5CA17001F2451 /* Main.storyboard */,
 				7F8FD1531FC5CA17001F2451 /* Assets.xcassets */,
+				7FB74C551FCF6A0200319B95 /* fugue.mp3 */,
+				7FB74C571FCF6A0800319B95 /* flight.mp3 */,
+				7FB74C591FCF6A0E00319B95 /* elise.mp3 */,
 				7F8FD1551FC5CA17001F2451 /* LaunchScreen.storyboard */,
 				7F8FD1581FC5CA17001F2451 /* Info.plist */,
+				7F8FD17E1FC5D549001F2451 /* Song.swift */,
+				7FB74C491FCF590600319B95 /* SongTableViewController.swift */,
+				7FB74C4B1FCF591800319B95 /* SongTableViewCell.swift */,
 			);
 			path = BachToBack;
 			sourceTree = "<group>";
@@ -233,8 +251,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F8FD1571FC5CA17001F2451 /* LaunchScreen.storyboard in Resources */,
+				7FB74C581FCF6A0800319B95 /* flight.mp3 in Resources */,
 				7F8FD1541FC5CA17001F2451 /* Assets.xcassets in Resources */,
 				7F8FD1521FC5CA17001F2451 /* Main.storyboard in Resources */,
+				7FB74C561FCF6A0200319B95 /* fugue.mp3 in Resources */,
+				7FB74C5A1FCF6A0E00319B95 /* elise.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F8FD17F1FC5D549001F2451 /* Song.swift in Sources */,
 				7F8FD14F1FC5CA17001F2451 /* ViewController.swift in Sources */,
+				7FB74C4C1FCF591800319B95 /* SongTableViewCell.swift in Sources */,
+				7FB74C4A1FCF590600319B95 /* SongTableViewController.swift in Sources */,
 				7F8FD14D1FC5CA17001F2451 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +531,7 @@
 				7F8FD1731FC5CA17001F2451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F8FD1741FC5CA17001F2451 /* Build configuration list for PBXNativeTarget "BachToBackTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +540,7 @@
 				7F8FD1761FC5CA17001F2451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F8FD1771FC5CA17001F2451 /* Build configuration list for PBXNativeTarget "BachToBackUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +549,7 @@
 				7F8FD1791FC5CA17001F2451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
